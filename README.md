@@ -1,27 +1,28 @@
-# [Tytuł Twojego Projektu/Badania]
+# [Review Agent]
 
 [![Status](https://img.shields.io/badge/Status-In--Progress-orange.svg)](https://github.com/)
-[![Conference](https://img.shields.io/badge/Conference-Poster--Presentation-blue.svg)](https://nazwa-konferencji.pl)
+[![Conference](https://img.shields.io/badge/Conference-Poster--Presentation-blue.svg)](https://lemforum.pwr.edu.pl/)
 
-## 📋 Abstrakt
-Krótki, 2-3 zdaniowy opis Twojego projektu. Wyjaśnij, jaki problem rozwiązujesz i dlaczego jest on istotny. To idealne miejsce dla kogoś, kto chce szybko przypomnieć sobie Twój poster po konferencji.
+## 📋 Abstract
+The culmination of years of rigorous scientific research is increasingly bottlenecked by hyper-competitive conference acceptance rates. As the volume of submissions grows, authors frequently struggle to maintain an objective perspective on their own work, making it difficult to catch errors. To provide authors with critical first-instance external feedback and help them strategically tailor their manuscripts to specific academic venues, we propose a multi-agent Large Language Model (LLM) framework that simulates the peer-review process.
+ 
+Our system leverages Retrieval-Augmented Generation to integrate official conference guidelines and utilizes few-shot learning populated with historical, venue-specific reviews to accurately mimic institutional tone and standards. The framework deploys distinct reviewer personas reflecting common real-world archetypes: Substantive (logic and merit-oriented), Aesthete (focused on style and grammar), Lazy (generalizing based on length and superficiality), and Hater (hyper-critical and fault-finding). Our framework adopts a dual-modality approach, integrating both textual and visual LLMs to analyze entire manuscript. This allows for a comprehensive evaluation that detects more flaws across both the written text and visual elements, such as charts, drawings, and graphics. By exposing manuscripts to this adversarial simulation prior to submission, authors can identify mistakes missed during the writing process, preemptively address methodological gaps, and align their framing with specific venue expectations. This tool aims to democratize access to high-quality pre-submission feedback, empowering researchers to navigate the academic bottleneck and maximize their chances of acceptance.
 
-## 🖼️ Materiały z konferencji
-* [**Pobierz Poster (PDF)**](./poster.pdf) – Pełna wersja wizualna prezentowana na konferencji.
-* [**Prezentacja (opcjonalnie)**](./prezentacja.pdf) – Dodatkowe slajdy.
+## 🖼️ Conference Materials
+* [**Download our poster (PDF)**](./poster.pdf)
 
-## 💻 Kod źródłowy i Dane
-Obecnie pracujemy nad finalną wersją kodu i czyszczeniem dokumentacji. 
-> **Info:** Główne repozytorium zostanie upublicznione wraz z publikacją artykułu naukowego. 
 
-**Kliknij przycisk "Star" ⭐ w prawym górnym rogu, aby otrzymać powiadomienie, gdy kod stanie się publiczny!**
+## 💻 Source Code & Data
+We are currently finalizing the source code and refining the documentation. 
+> **Info:** The main repository will be made public upon the official publication of the research paper.
 
-## 🔬 Metodologia (W skrócie)
-1. **Krok 1:** Opis procesu.
-2. **Krok 2:** Analiza danych.
-3. **Krok 3:** Wyniki końcowe.
+**Click the "Star" ⭐ button in the top right corner to receive a notification when the code is released!**
 
-## ✉️ Kontakt
-* **Imię i Nazwisko** - [Twój Email](mailto:twoj@email.com)
-* [Profil LinkedIn / Strona uczelni]
-* **Miejsce:** Nazwa Twojego Uniwersytetu / Laboratorium
+## 🔬 Methodology (At a Glance)
+1. **Step 1:** Process description and initial setup.
+2. **Step 2:** Data analysis and experimental framework.
+3. **Step 3:** Final evaluation and results synthesis.
+
+## ✉️ Contact
+* **[Piotr Korycki]** – [piotr.korycki@pwr.edu.pl](mailto:piotr.korycki@pwr.edu.pl)
+* **Affiliation:** Wroclaw University of Science and Technology
